@@ -89,3 +89,35 @@ ul{
 	margin-left: 300px;
 	display: none;
 }
+@media only screen and (max-width: 500px) {
+  .reset{
+        color:red;
+        margin-left:8em;
+        padding:.5em;
+    }
+    .texts{
+        margin-left:.40em;
+        font-size:1.5em;
+    }
+    .item{
+        margin-left:5em;
+        width: 13em;
+	height:2em;
+	font-size: 1em;
+    }
+    .add,.delete{
+    	font-size:1em;
+	padding:.5em;
+    }
+    .error{
+    	margin-left:5em;
+    }
+    ul{
+    	margin-left:2.5em;
+    }
+    li{
+    	padding:.3em;
+    }
+    
+}
+
