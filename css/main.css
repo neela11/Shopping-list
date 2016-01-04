@@ -93,7 +93,11 @@ ul{
 	display: none;
 }
 @media only screen and (max-width: 500px) {
+<<<<<<< HEAD
+  .reset{
+=======
     .reset{
+>>>>>>> 1359d28cdfd2602fe0046e90636ed52c5b141aba
         
         margin-left:8em;
         padding:.5em;
