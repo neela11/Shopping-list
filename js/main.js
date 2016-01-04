@@ -17,14 +17,14 @@ $('.delete').click(function(){
 $('.reset').click(function(){
 	$('li').hide();
 })
-$('ul').on('click', 'li', function(){
-  
-  $(this).css('text-decoration','line-through');
-   $(this).children('.check').css('text-decoration','line-through');
+$('ul').on('click', '.check', function(){
+  //$(this).parent('li')
+  //$(this).css('text-decoration','line-through');
+   $(this).parent('li').css('text-decoration','line-through');
   
 });
-$('ul').on('click', 'li', function(){
-   $(this).hide();
-   $(this).children('.cross').hide();
+$('ul').on('click', '.cross', function(){
+   //$(this).hide();
+   $(this).parent('li').hide();
 });
 });

@@ -1,31 +1,30 @@
 body{
-	background-color: #E8E899;
-
+	background-image: url("http://i1308.photobucket.com/albums/s611/neelambika11/vegetables_zpsepcnajpc.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    color: #4E5152;
 }
-
 .title{
-	text-align: center;
 	font-size: 4.5em;
 	width: 100%;
 	height: 120px;
 }
 .texts{
- width: 500px;
- height: 45px;
-text-align: center;
-font-size: 2em;
-margin-top: 20px;
-margin-left: 250px;
+    width: 500px;
+    height: 45px;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left:13.5em;
 }
 .reset{
-border-radius:10px;
+    border-radius:10px;
 	border:1px solid #4e6096;
-	color:black;
+	color:white;
 	font-size:19px;
 	padding:12px 37px;
-	margin-left: 550px;
-	margin-top: 20px;
-	}
+	background-color:  #76797A;
+}
 .container{
 	height: 65px;
 	margin-top: 1em;
@@ -33,26 +32,27 @@ border-radius:10px;
 .item{
 	width: 350px;
 	height:40px;
-	margin-left: 300px;
+	margin-left: 1em;
 	font-size: 1.5em;
 	margin-top: .5em;
+	border-radius:10px;
 }
 .add{
 border-radius:10px;
 	border:1px solid #4e6096;
-	color:black;
+	color:white;
 	font-size:19px;
 	padding:9px 25px;
-	
+	background-color:  #76797A;
 	
 	}
 .delete{
 border-radius:10px;
 	border:1px solid #4e6096;
-	color:black;
+	color:white;
 	font-size:19px;
 	padding:9px 25px;
-	
+	background-color:  #76797A;
 	
 	}
 li {
@@ -61,10 +61,11 @@ li {
 	margin: 10px 0px;
 	padding: 8px;
 	list-style: none;
+	background-color: white;
 }
 ul{
 	width: 320px;
-	margin-left: 280px;
+	margin-left: 31em;
 }
 .check {
 	float: left;
@@ -72,7 +73,8 @@ ul{
 	margin-right: 30px;
 	height: 17px;
 	width: 17px;
-	background-color: green;
+	background-image: url('../images/checkmark.jpg');
+	background-size: 17px;
 }
 .cross {
 	float: right;
@@ -80,8 +82,9 @@ ul{
 	margin-right: 30px;
 	height: 17px;
 	width: 17px;
-	background-color: red;
 	
+	background-image: url('../images/DeleteRed.png');
+	background-size: 17px;
 	/*background: url('C:\Users\Neela\Documents\Thinkful\Images\1448069434_DeleteRed.png');*/
 }
 .error{
