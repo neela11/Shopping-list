@@ -15,7 +15,8 @@ body{
     height: 45px;
     font-size: 2em;
     margin-top: 20px;
-    margin-left:13.5em;
+    padding-left: 19em;
+    padding-top: 1em;
 }
 .reset{
     border-radius:10px;
@@ -65,7 +66,7 @@ li {
 }
 ul{
 	width: 320px;
-	margin-left: 31em;
+	padding-left: 32em;
 }
 .check {
 	float: left;
